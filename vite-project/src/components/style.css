@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    
+}
+.b1{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    width: auto;
+    
+}
+
+.a1{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:green;
+    
+}
+.c1{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+    color: red; 
+   
+    
+}
+li{
+    color: red;
+    display: inline;
+
+}
+h1{
+    color: red;
+}
+.book-card{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 4px   8px rgba(1, 0.1, 0.1, 0.1);   
+    transition: transform 0.2s;
+    overflow: hidden;   
+
+}
+.book-card:hover{
+    transform: scale(1.1);
+}
+.book-title{
+    margin-bottom: 10px;
+    font-size: 1em;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}  
+.book-author{
+    font-size: 0.9;
+    margin-bottom: 10px;
+    color: white;    
+} 
+.book-cover{
+    width: 100%
+}
+.book-details{
+        padding: 15px;
+}
+.book-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.book-rating{
+    color: white;
+
+}
+.book-description{
+    color: white;
+}
+button{
+    background-color: red;
+    border-radius: 20px;
+}
+.buttoncolor{
+    gap: 20px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+     
+
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+    padding: 35px;  
+}
+.a2{
+    background-color: green;
+    color: white;
+}
+.container1{
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+align-items: center;
+
+
+}
+.err1{
+    color: white;
+}
+.err2{
+    color: white;
+}
